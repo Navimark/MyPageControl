@@ -13,6 +13,10 @@
 		B192EA7815C0DBBC001EA363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B192EA7615C0DBBC001EA363 /* InfoPlist.strings */; };
 		B192EA7A15C0DBBC001EA363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B192EA7915C0DBBC001EA363 /* main.m */; };
 		B192EA7E15C0DBBC001EA363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B192EA7D15C0DBBC001EA363 /* AppDelegate.m */; };
+		B192EA8615C0DBD0001EA363 /* MyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B192EA8515C0DBD0001EA363 /* MyPageControl.m */; };
+		B192EA8815C0DBDC001EA363 /* highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B192EA8715C0DBDC001EA363 /* highlighted.png */; };
+		B192EA8A15C0DC10001EA363 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B192EA8915C0DC10001EA363 /* normal.png */; };
+		B192EA8D15C0DC26001EA363 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B192EA8C15C0DC26001EA363 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		B192EA6D15C0DBBC001EA363 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B192EA6F15C0DBBC001EA363 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B192EA7115C0DBBC001EA363 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B192EA7515C0DBBC001EA363 /* MyPageControl-Info.plist */ = {isa = PBXFileReference; path = "MyPageControl-Info.plist"; sourceTree = "<group>"; };
+		B192EA7515C0DBBC001EA363 /* MyPageControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPageControl-Info.plist"; sourceTree = "<group>"; };
 		B192EA7715C0DBBC001EA363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B192EA7915C0DBBC001EA363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B192EA7B15C0DBBC001EA363 /* MyPageControl-Prefix.pch */ = {isa = PBXFileReference; path = "MyPageControl-Prefix.pch"; sourceTree = "<group>"; };
-		B192EA7C15C0DBBC001EA363 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B192EA7B15C0DBBC001EA363 /* MyPageControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPageControl-Prefix.pch"; sourceTree = "<group>"; };
+		B192EA7C15C0DBBC001EA363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B192EA7D15C0DBBC001EA363 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B192EA8415C0DBD0001EA363 /* MyPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageControl.h; sourceTree = "<group>"; };
+		B192EA8515C0DBD0001EA363 /* MyPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageControl.m; sourceTree = "<group>"; };
+		B192EA8715C0DBDC001EA363 /* highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlighted.png; sourceTree = "<group>"; };
+		B192EA8915C0DC10001EA363 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		B192EA8B15C0DC26001EA363 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B192EA8C15C0DC26001EA363 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,12 @@
 		B192EA5E15C0DBBC001EA363 = {
 			isa = PBXGroup;
 			children = (
+				B192EA8B15C0DC26001EA363 /* MainViewController.h */,
+				B192EA8C15C0DC26001EA363 /* MainViewController.m */,
+				B192EA8915C0DC10001EA363 /* normal.png */,
+				B192EA8715C0DBDC001EA363 /* highlighted.png */,
+				B192EA8415C0DBD0001EA363 /* MyPageControl.h */,
+				B192EA8515C0DBD0001EA363 /* MyPageControl.m */,
 				B192EA7315C0DBBC001EA363 /* MyPageControl */,
 				B192EA6C15C0DBBC001EA363 /* Frameworks */,
 				B192EA6A15C0DBBC001EA363 /* Products */,
@@ -141,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B192EA7815C0DBBC001EA363 /* InfoPlist.strings in Resources */,
+				B192EA8815C0DBDC001EA363 /* highlighted.png in Resources */,
+				B192EA8A15C0DC10001EA363 /* normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +171,8 @@
 			files = (
 				B192EA7A15C0DBBC001EA363 /* main.m in Sources */,
 				B192EA7E15C0DBBC001EA363 /* AppDelegate.m in Sources */,
+				B192EA8615C0DBD0001EA363 /* MyPageControl.m in Sources */,
+				B192EA8D15C0DC26001EA363 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
